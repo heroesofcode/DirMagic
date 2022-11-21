@@ -12,8 +12,8 @@ python3 dir.py
 
 1 - Find directories
 
-<img src="https://github.com/heroesofcode/DirMagic/blob/master/assets/dir.png" width="850px" height="500px">
+<img src="https://github.com/heroesofcode/DirMagic/blob/master/assets/dir.png" width="700px" height="400px">
 
 2 - Find DNS
 
-<img src="https://github.com/heroesofcode/DirMagic/blob/master/assets/dns.png" width="850px" height="500px">
+<img src="https://github.com/heroesofcode/DirMagic/blob/master/assets/dns.png" width="700px" height="400px">
