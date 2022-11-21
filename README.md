@@ -6,6 +6,7 @@ DirMagic is a library written in Python to brute force directories and DNS
 
 ```
 cd DirMagic
+pip install -r requirements.txt
 python3 dir.py
 ```
 
