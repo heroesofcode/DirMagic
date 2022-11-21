@@ -1,0 +1,11 @@
+admin
+uploads
+contact
+futebol
+saude
+blogs-e-colunas
+search
+dashboard
+ge
+advanced
+shop
