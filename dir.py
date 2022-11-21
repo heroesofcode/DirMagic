@@ -11,10 +11,10 @@ def header():
         |  '--'  ||  | |  |\  \----.   |  |  |  |  /  _____  \ |  |__| | |  | |  `----.
         |_______/ |__| | _| `._____|   |__|  |__| /__/     \__\ \______| |__|  \______|
 
-        About: Bkakdkakdkdkk
+        About: DirMagic is a library written in Python to brute force directories and DNS
         Author: João Lucas
         Language: Python
-        GitHub: https://github.com/joaolfp/DirMagic                                                                              
+        GitHub: https://github.com/heroesofcode/DirMagic                                                                            
     """)
 
 def find_dir():
@@ -58,9 +58,7 @@ def find_dns():
             try:
                 resolver = dns.resolver.Resolver()
                 responses = resolver.resolve(subdomain, "A")
-
-                for response in responses:
-                    print("{}, {}".format(subdomain, response))
+                print("{}".format(subdomain))
             except:
                 pass
     except KeyboardInterrupt:
