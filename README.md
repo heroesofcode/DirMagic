@@ -1,5 +1,7 @@
 # DirMagic
 
+[![Python 3.x](https://img.shields.io/badge/python-3.x-yellow.svg)](https://www.python.org/)
+
 DirMagic is a library written in Python to brute force directories and DNS
 
 ## How to install?
