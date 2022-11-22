@@ -9,9 +9,9 @@ def header():
         |  .--.  ||  | |  |_)  |       |  \  /  |    /  ^  \   |  |  __  |  | |  ,----'
         |  |  |  ||  | |      /        |  |\/|  |   /  /_\  \  |  | |_ | |  | |  |     
         |  '--'  ||  | |  |\  \----.   |  |  |  |  /  _____  \ |  |__| | |  | |  `----.
-        |_______/ |__| | _| `._____|   |__|  |__| /__/     \__\ \______| |__|  \______|
+        |_______/ |__| | _| `._____|   |__|  |__| /__/     \__\ \______| |__|  \______| (1.0.0)
 
-        About: DirMagic is a library written in Python to brute force directories and DNS
+        About: DirMagic is a library written in Python to brute force directories and subdomains
         Author: João Lucas
         Language: Python
         GitHub: https://github.com/heroesofcode/DirMagic                                                                            
@@ -41,7 +41,7 @@ def find_dir():
         print("an error happened")
         sys.exit()
 
-def find_dns():
+def find_subdomains():
     try:
         print("\n")
         domain = input("Domain: ")
@@ -59,6 +59,9 @@ def find_dns():
                 resolver = dns.resolver.Resolver()
                 responses = resolver.resolve(subdomain, "A")
                 print("{}".format(subdomain))
+            except KeyboardInterrupt:
+                print("\n Bye!!!")
+                sys.exit()
             except:
                 pass
     except KeyboardInterrupt:
@@ -72,7 +75,7 @@ if __name__ == "__main__":
     header()
 
     print("1 - Find Directories")
-    print("2 - Find DNS \n")
+    print("2 - Find Subdomains \n")
     
     try:
         item = input("Choose some of the options: ")
@@ -80,7 +83,7 @@ if __name__ == "__main__":
         if item == "1":
             find_dir()
         elif item == "2":
-            find_dns()
+            find_subdomains()
         else:
             print("This option does not exist")
     except KeyboardInterrupt:

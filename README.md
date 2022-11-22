@@ -15,7 +15,7 @@ git clone https://github.com/heroesofcode/DirMagic.git
 ```
 cd DirMagic
 pip install -r requirements.txt
-python3 dir.py
+python3 dirMagic.py
 ```
 
 1 - Find directories
@@ -24,7 +24,7 @@ python3 dir.py
 
 2 - Find subdomains
 
-<img src="https://github.com/heroesofcode/DirMagic/blob/master/assets/dns.png" width="700px" height="400px">
+<img src="https://github.com/heroesofcode/DirMagic/blob/master/assets/subdomain.png" width="700px" height="400px">
 
 ## Contribution
 
