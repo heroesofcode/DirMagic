@@ -5,12 +5,12 @@
 
 DirMagic is a library written in Python to brute force directories and DNS
 
-## How to install?
+## Installation
 ```
 git clone https://github.com/heroesofcode/DirMagic.git
 ```
 
-## How to use?
+## Usage
 
 ```
 cd DirMagic
