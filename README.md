@@ -3,7 +3,7 @@
 [![Testing](https://github.com/heroesofcode/DirMagic/actions/workflows/Testing.yml/badge.svg)](https://github.com/heroesofcode/DirMagic/actions/workflows/Testing.yml)
 [![Python 3.x](https://img.shields.io/badge/python-3.x-yellow.svg)](https://www.python.org/)
 
-DirMagic is a library written in Python to brute force directories and DNS
+DirMagic is a library written in Python to brute force directories and subdomains
 
 ## Installation
 ```
