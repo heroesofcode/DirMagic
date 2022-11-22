@@ -22,7 +22,7 @@ python3 dir.py
 
 <img src="https://github.com/heroesofcode/DirMagic/blob/master/assets/dir.png" width="700px" height="400px">
 
-2 - Find DNS
+2 - Find subdomains
 
 <img src="https://github.com/heroesofcode/DirMagic/blob/master/assets/dns.png" width="700px" height="400px">
 
