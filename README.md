@@ -26,6 +26,23 @@ python3 dirMagic.py
 
 <img src="https://github.com/heroesofcode/DirMagic/blob/master/assets/subdomain.png" width="700px" height="400px">
 
+### WordLists
+
+You can create your own wordlist with .txt, follow the example below
+
+wordlist.txt
+```
+admin
+login
+dashboard
+blog
+```
+
+Below are some WordList links for downloads
+
+- If you're running on [Kali Linux](https://www.kali.org/), it's already installed on the system, just follow this [documentation](https://www.kali.org/tools/wordlists/).
+- [SecLists](https://github.com/danielmiessler/SecLists) is a repository that has several wordlists to download.
+
 ## Contribution
 
 * To contribute, from a fork in the project <br>
