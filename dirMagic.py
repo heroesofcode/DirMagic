@@ -1,6 +1,7 @@
 import requests
 import sys
 import dns.resolver
+from rich.console import Console
 
 def header():
     print("""
@@ -9,7 +10,7 @@ def header():
         |  .--.  ||  | |  |_)  |       |  \  /  |    /  ^  \   |  |  __  |  | |  ,----'
         |  |  |  ||  | |      /        |  |\/|  |   /  /_\  \  |  | |_ | |  | |  |     
         |  '--'  ||  | |  |\  \----.   |  |  |  |  /  _____  \ |  |__| | |  | |  `----.
-        |_______/ |__| | _| `._____|   |__|  |__| /__/     \__\ \______| |__|  \______| (1.0.0)
+        |_______/ |__| | _| `._____|   |__|  |__| /__/     \__\ \______| |__|  \______| (1.1.0)
 
         About: DirMagic is a library written in Python to brute force directories and subdomains
         Author: João Lucas
@@ -23,7 +24,10 @@ def find_dir():
         url = input("URL: ")
         wordlist = input("WordList: ")
 
-        print("\n -------------- search .... --------------")
+        console = Console()
+        console.print("\n -------------- search --------------", style="#af00ff")
+
+        all_results = []
 
         with open(wordlist, "r") as file:
             directories = file.readlines()
@@ -34,6 +38,13 @@ def find_dir():
 
             if response.status_code != 404:
                 print("{} - {}".format(url+directory, response.status_code))
+                all_results.append("{} - {}".format(url+directory, response.status_code))
+
+        with open("directories_found.txt", 'w') as file:
+            for item in all_results:
+                file.write("{}\n".format(item))
+        
+        console.print("Saved in the directories_found.txt file", style="#008000")
     except KeyboardInterrupt:
         print("\n Bye!!!")
         sys.exit()
