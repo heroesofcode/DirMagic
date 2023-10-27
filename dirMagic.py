@@ -25,7 +25,7 @@ def find_dir():
         wordlist = input("WordList: ")
 
         console = Console()
-        console.print("\n -------------- search --------------", style="#af00ff")
+        console.print("\n -------------- search .... --------------", style="#af00ff")
 
         all_results = []
 
