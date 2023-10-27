@@ -9,3 +9,11 @@ pull_request_rules:
     actions:
       merge:
         method: squash
+
+  - name: Be author's friend
+    conditions:
+      - author~=^joaolfp
+      - check-success=e2e
+    actions:
+      merge:
+        method: squash
