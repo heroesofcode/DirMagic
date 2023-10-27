@@ -6,6 +6,18 @@ pull_request_rules:
   - name: Automatic merges for Dependabot pull requests
     conditions:
       - author~=^dependabot(|-preview)\[bot\]$
+      - check-success=build (ubuntu-latest, 3.9)
+      - check-success=build (ubuntu-latest, 3.10)
+      - check-success=build (ubuntu-latest, 3.11)
+      - check-success=build (ubuntu-latest, 3.12)
+      - check-success=build (windows-latest, 3.9)
+      - check-success=build (windows-latest, 3.10)
+      - check-success=build (windows-latest, 3.11)
+      - check-success=build (windows-latest, 3.12)
+      - check-success=build (macos-latest, 3.9)
+      - check-success=build (macos-latest, 3.10)
+      - check-success=build (macos-latest, 3.11)
+      - check-success=build (macos-latest, 3.12)
     actions:
       merge:
         method: squash
