@@ -48,5 +48,11 @@ Below are some WordList links for downloads
 
 * To contribute, from a fork in the project please feel free to give suggestions, improvements and feel free to add features. After you contribute, open a pull request.
 
+## Contributors
+
+<a href="https://github.com/heroesofcode/DirMagic/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=heroesofcode/DirMagic" />
+</a>
+
 ## License
 DirMagic is released under the MIT license. See [LICENSE](https://github.com/heroesofcode/DirMagic/blob/master/LICENSE) for details.
