@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## Version 1.1.1
+**2024-06-10**
+
+- Fix syntax warning and subdomains (#56) @joaolfp
+- Bump certifi from 2024.2.2 to 2024.6.2 (#55) @dependabot
+- Bump requests from 2.32.2 to 2.32.3 (#54) @dependabot
+- Bump rich from 13.7.0 to 13.7.1 (#49) @dependabot
+
 ## Version 1.1.0
 **2023-11-21**
 
