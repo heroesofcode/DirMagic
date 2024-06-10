@@ -81,7 +81,6 @@ def find_subdomains():
             subdomain = "{}.{}".format(word, domain)
 
             if test_subdomain(subdomain):
-                # Faz uma requisição HTTP ao subdomínio
                 try:
                     response = requests.get("http://" + subdomain)
                     if response.status_code != 404:
