@@ -21,11 +21,11 @@ python3 dirMagic.py
 
 1 - Find directories
 
-<img src="https://github.com/heroesofcode/DirMagic/blob/master/assets/dir.png" width="700px" height="400px">
+<img src="https://github.com/heroesofcode/DirMagic/blob/master/assets/dir.png">
 
 2 - Find subdomains
 
-<img src="https://github.com/heroesofcode/DirMagic/blob/master/assets/subdomain.png" width="700px" height="400px">
+<img src="https://github.com/heroesofcode/DirMagic/blob/master/assets/subdomain.png">
 
 ### WordLists
 
