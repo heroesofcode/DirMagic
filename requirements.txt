@@ -4,4 +4,4 @@ dnspython==2.6.1
 idna==3.8
 requests==2.32.3
 urllib3==2.2.2
-rich==13.7.1
+rich==13.8.0
