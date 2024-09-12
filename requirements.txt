@@ -3,5 +3,5 @@ charset-normalizer==3.3.2
 dnspython==2.6.1
 idna==3.8
 requests==2.32.3
-urllib3==2.2.2
+urllib3==2.2.3
 rich==13.8.1
