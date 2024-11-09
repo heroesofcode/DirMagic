@@ -1,7 +1,7 @@
 setup: ## Dependencies
 	poetry update
 	poetry install
-	poetry shell
+	poetry config virtualenvs.in-project true
 
 inspect: ## Run code analysis
 	poetry run flake8 dir_magic tests
