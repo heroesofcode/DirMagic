@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "dir-magic"
+version = "0.1.0"
+description = ""
+authors = ["joaolfp <joaolucasfp2001@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+requests = "^2.32.3"
+rich = "^13.9.4"
+dnspython = "^2.7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
