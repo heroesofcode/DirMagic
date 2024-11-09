@@ -8,15 +8,13 @@ DirMagic is a library written in Python to brute force directories and subdomain
 
 ## Installation
 ```
-git clone https://github.com/heroesofcode/DirMagic.git
+python3 -m pip install dir-magic
 ```
 
 ## Usage
 
 ```
-cd DirMagic
-pip install -r requirements.txt
-python3 dirMagic.py
+dir-magic
 ```
 
 1 - Find directories
