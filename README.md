@@ -15,7 +15,7 @@ python3 -m pip install dir-magic
 ## Usage
 
 ```
-python3 -m profile_python
+python3 -m dir_magic
 ```
 
 1 - Find directories
