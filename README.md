@@ -1,6 +1,7 @@
 # DirMagic
 
 [![Testing](https://github.com/heroesofcode/DirMagic/actions/workflows/Testing.yml/badge.svg)](https://github.com/heroesofcode/DirMagic/actions/workflows/Testing.yml)
+![PyPI - Version](https://img.shields.io/pypi/v/dir-magic)
 [![Python 3.10](https://img.shields.io/badge/python-3.10-yellow.svg)](https://www.python.org/)
 [![GitHub](https://img.shields.io/github/license/heroesofcode/DirMagic)](https://github.com/joaolfp/DirMagic/blob/master/LICENSE)
 
