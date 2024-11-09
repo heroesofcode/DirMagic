@@ -1,2 +1,13 @@
 directories_found.txt
-.DS_Store
+*.py[cod]
+*$py.class
+.pytest_cache
+*egg-info
+dist
+.DS_STORE
+__pycache__
+
+.coverage
+coverage.xml
+.vscode/
+.idea
