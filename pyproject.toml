@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "dir-magic"
-version = "1.1.1"
+version = "1.2.0"
 description = "DirMagic is a library written in Python to brute force directories and subdomains"
 authors = ["João Lucas <joaolucasfp2001@gmail.com>"]
 license = "MIT"

@@ -1,7 +1,7 @@
 # DirMagic
 
 [![Testing](https://github.com/heroesofcode/DirMagic/actions/workflows/Testing.yml/badge.svg)](https://github.com/heroesofcode/DirMagic/actions/workflows/Testing.yml)
-[![Python 3.x](https://img.shields.io/badge/python-3.x-yellow.svg)](https://www.python.org/)
+[![Python 3.10](https://img.shields.io/badge/python-3.10-yellow.svg)](https://www.python.org/)
 [![GitHub](https://img.shields.io/github/license/heroesofcode/DirMagic)](https://github.com/joaolfp/DirMagic/blob/master/LICENSE)
 
 DirMagic is a library written in Python to brute force directories and subdomains

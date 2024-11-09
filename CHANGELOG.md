@@ -1,5 +1,25 @@
 # CHANGELOG
 
+## Version 1.2.0
+**2024-11-09**
+
+- Update snok/install-poetry action to v1.4 by @renovatebot - #73
+- Update project to Poetry by @joaolfp - #72
+- Update dependency rich to v13.9.4 by @renovatebot - #71
+- Update dependency rich to v13.9.3 by @renovatebot - #70
+- Update all dependencies by @renovatebot - #69
+- Update dependency rich to v13.9.2 by @renovatebot - #68
+- Update dependency rich to v13.9.1 by @renovatebot - #67
+- Update dependency idna to v3.10 by @renovatebot - #66
+- Update dependency idna to v3.9 by @renovatebot - #65
+- Update dependency urllib3 to v2.2.3 by @renovatebot - #64
+- Update dependency rich to v13.8.1 by @renovatebot - #63
+- Update dependency certifi to v2024.8.30 by @renovatebot - #62
+- Update dependency rich to v13.8.0 by @renovatebot - #61
+- Update dependency idna to v3.8 by @renovatebot - #60
+- Update dependency certifi to v2024.7.4 by @renovatebot - #59
+- Update dependency urllib3 to v2.2.2 [SECURITY] by @renovatebot - #58
+
 ## Version 1.1.1
 **2024-06-10**
 
