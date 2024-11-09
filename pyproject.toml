@@ -1,15 +1,26 @@
 [tool.poetry]
 name = "dir-magic"
-version = "0.1.0"
-description = ""
-authors = ["joaolfp <joaolucasfp2001@gmail.com>"]
+version = "1.1.1"
+description = "DirMagic is a library written in Python to brute force directories and subdomains"
+authors = ["João Lucas <joaolucasfp2001@gmail.com>"]
+license = "MIT"
 readme = "README.md"
+homepage = "https://github.com/heroesofcode/DirMagic"
+repository = "https://github.com/heroesofcode/DirMagic"
+include = [ "LICENSE.md" ]
+classifiers = [
+    "Environment :: Console",
+    "Operating System :: OS Independent"
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"
 requests = "^2.32.3"
 rich = "^13.9.4"
 dnspython = "^2.7.0"
+
+[tool.poetry.scripts]
+dir-magic = "dir-magic=dir_magic.__main__:main"
 
 [build-system]
 requires = ["poetry-core"]
