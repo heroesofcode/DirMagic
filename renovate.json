@@ -1,13 +1,19 @@
 {
   "extends": [
-    "config:base"
+    "config:recommended"
   ],
-  "enabledManagers": ["poetry", "pyenv", "github-actions"],
+  "enabledManagers": [
+    "poetry",
+    "pyenv",
+    "github-actions"
+  ],
   "packageRules": [
     {
-      "packagePatterns": ["*"],
       "groupName": "all dependencies",
-      "automerge": false
+      "automerge": false,
+      "matchPackageNames": [
+        "*"
+      ]
     }
   ]
 }
